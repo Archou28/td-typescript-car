@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Jeu Voiture Snake</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    #instructions {
+      margin-bottom: 10px;
+    }
+    canvas {
+      border: 2px solid black;
+      background: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <h1>🚗 Jeu de la voiture Snake</h1>
+  <div id="instructions">
+    <p>Utilise les flèches du clavier pour déplacer la voiture.</p>
+    <p>⚠️ Attention à la vitesse ! 🚗💨.</p>
+    <p>.</p>
+  </div>
+  <canvas id="gameCanvas" width="500" height="400"></canvas>
+  <!-- On charge le JS compilé -->
+  <script type="module" src="./dist/index.js"></script>
+</body>
+</html>
